@@ -1,0 +1,39 @@
+/* Variables */
+:root{
+    --main-bg-color: #000;
+    --main-text-color: #fff;
+    --main-grey-color: #222;
+    --main-red-color: #f40612;
+    --secondary-grey-color: #303030;
+    /* Font Sizes */
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-24: 24px;
+    --fs-26: 26px;
+    --fs-28: 28px;
+    --fs-32: 32px;
+    --fs-40: 40px;
+    --fs-48: 48px;
+    --fs-64: 64px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: var(--main-bg-color);
+    color: var(--main-text-color);
+}
+
+/* Valores padrão para dispositivos móveis - Default values to mobile devices */
+h1{
+    font-size: var(--fs-28);
+    font-weight: 600;
+}
+h2, h3{
+    font-size: var(--fs-18);
+    font-weight: 400;
+}
+h5{
+    font-size: var(--fs-16);
+    font-weight: 400;
+}
