@@ -37,3 +37,37 @@ h5{
     font-size: var(--fs-16);
     font-weight: 400;
 }
+
+/* Bootstrap */
+
+.btn{
+    border-radius: 0;
+    padding: 8px 16px;
+    background: var(--main-red-color);
+}
+
+/* Custom Styles */
+.navbar{
+    background: transparent;
+    padding: 16px;
+    position: absolute;
+    width: 100%;
+}
+.navbar-brand{
+    color: #e50914;
+    font-weight: bold;
+    font-size: var(--fs-24);
+    letter-spacing: 2px;
+}
+main {
+    background: linear-gradient (to top, rgba(0,0,0,0.8) 0, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 75%, rgba(0,0,0,0.8) 100%), url(../assets/images/pexels-martin-lopez-1117132.jpg);
+    background-size: cover;
+}
+.main-content {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+.main-content__input-container {
+    display: flex;
+}
