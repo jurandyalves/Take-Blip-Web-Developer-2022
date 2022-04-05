@@ -60,7 +60,7 @@ h5{
     letter-spacing: 2px;
 }
 main {
-    background: linear-gradient (to top, rgba(0,0,0,0.8) 0, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 75%, rgba(0,0,0,0.8) 100%), url(../assets/images/pexels-martin-lopez-1117132.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.8) 100%), url(../assets/images/pexels-martin-lopez-1117132.jpg);
     background-size: cover;
 }
 .main-content {
@@ -69,5 +69,25 @@ main {
     text-align: center;
 }
 .main-content__input-container {
+    align-items: center;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-content__input-container {
+    flex: 1;
+    max-width: 500px;
+    padding: 12px;
+    width: 100%;
+}
+.main-content{
+    padding: 104px;
+}
+.benefits-section{
+    padding: 32px 32px 40px 32px;
+    text-align: center;
+    border-bottom: 8px solid var(--main-grey-color);
+}
+.benefits-section:first-of-type{
+    
 }
