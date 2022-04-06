@@ -89,5 +89,12 @@ main {
     border-bottom: 8px solid var(--main-grey-color);
 }
 .benefits-section:first-of-type{
-    
+    border-top: var(--main-grey-color);
+}
+.benefits-content div{
+    padding: 16px;
+}
+.benefits-content img{
+    width: 100%;
+    height: auto;
 }
