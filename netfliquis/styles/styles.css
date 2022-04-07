@@ -98,3 +98,53 @@ main {
     width: 100%;
     height: auto;
 }
+.accordion{
+    max-width: 800px;
+    margin: 0 auto;
+    background: var(--main-grey-color);
+}
+.accordion-item{
+    border: none;
+    background: var(--secondary-grey-color);
+    margin-bottom: 8px;
+}
+.accordion-button{
+    background: var(--main-grey-color);
+    color: var(--main-text-color);
+}
+
+/* BREAKPOINTS */
+@media (min-width: 992px){
+    h1{
+        font-size: var(--fs-64);
+        font-weight: 600;
+    }
+
+    h2{
+        font-size: var(--fs-26);
+    }
+
+    h3{
+        font-size: var(--fs-20);
+        font-weight: 400;
+    }
+
+    h5{
+        font-size: var(--fs-16);
+    }
+}
+
+/* BREAKPOINTS LARGE DEVICES */
+@media (min-width: 1200px){
+    .navbar-brand{
+        font-size: var(--fs-40);
+    }
+
+    .main-content__input-container input{
+        height: 70px;
+    }
+
+    .main-content__input-container button{
+        height: 70px;
+    }
+}
